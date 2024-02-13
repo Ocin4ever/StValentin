@@ -1,7 +1,7 @@
 body{
     display: grid;
     place-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     overflow: hidden;
     background: #fae1dd;
 }
@@ -17,7 +17,7 @@ body{
 .envelope{
     position: relative;
     width: 300px;
-    height: 200px;
+    height: 250px;
     background: #f08080;
     display: grid;
     place-items: center;
@@ -37,7 +37,7 @@ body{
     position: absolute;
     border-right: 180px solid #f4978e;
     border-top: 95px solid transparent;
-    border-bottom: 100px solid transparent;
+    border-bottom: 150px solid transparent;
     left: 120px;
     top: 5px;
     width: 0;
@@ -49,13 +49,14 @@ body{
     content: '';
     border-left: 300px solid #fda996;
     border-top: 195px solid transparent;
+    border-bottom: 50px solid #fda996;
     left: -120px;
     top: -95px;
 }
 .card{
     position: relative;
     width: 250px;
-    height: 180px;
+    height: 250px;
     background: #fff;
     border-radius: 2px;
     display: grid;
@@ -73,13 +74,13 @@ body{
     border-style: dashed;
 }
 .valentines:hover .card{
-    transform: translateY(-100px);
+    transform: translateY(-150px);
 }
 .card .text{
     font-family: 'Brush Script MT', cursive;
     font-size: 28px;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     color: #003049;
 }
 .card .heart{
@@ -125,7 +126,7 @@ body{
     height: 25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .3);
-    top: 265px;
+    top: 320px;
     left: -15px;
     animation: scale 3s linear infinite;
 }
